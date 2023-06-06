@@ -1,71 +1,25 @@
-const numbersn = [77, 88, 2, 5,6,  2, 4]
+
+const stringn = "raju  ahmed";
+const stringnArr = stringn.split("");
+
+let asciiArr = stringnArr.map(x => x.charCodeAt(0));
+
+console.log(stringnArr);
 
 
-const newArr = numbers.map(myFunction)
-
-function myFunction(num) {
-    return num * 10;
-  }
-  //console.log(numbers)
+console.log(asciiArr);
 
 
+const prices = [0, 0, "razu", 0, "ahmed", 0, 0, 0,  0];
 
+let newPrices = prices.map(Math.sqrt);
 
-
-  let persons = [
-    {firstname : "Malcom", lastname: "Reynolds"},
-    {firstname : "Kaylee", lastname: "Frye"},
-    {firstname : "Jayne", lastname: "Cobb"}
-  ];
-  
-  persons.map(getFullName);
-  
-  function getFullName(item) {
-    return [item.firstname,item.lastname].join(" ");
-  }
+console.log(newPrices);
 
 
 
-  //console.log(persons)
+const numbers = [2, 2, 3, 4, 5];
 
+const resultingArray = numbers.flatMap((y) => [y ** 3]);
 
-
-  const array1 = [1, 4, 9, 16];
-
-
-const map1 = array1.map(x => x / 5);
-
-//console.log(map1);
-
-
-
-
-
-const numbers = [1, 4, 9];
-const roots = numbers.map((num) => Math.sqrt(num));
-
-
-
-//console.log(map1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let languages = ["razu-ahmed", "java-,,,", "C++"];
-
-let iteratorObject = languages.values();
-
-for (let value of iteratorObject) {
-  console.log(value);
-}
+console.log(resultingArray);
