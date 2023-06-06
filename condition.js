@@ -57,6 +57,9 @@ const getOddEven = (number)=>{
 };
 
 
-getOddEven(55);
-getOddEven(56);
+//getOddEven(66);
+//getOddEven(33);
+
+
+
 
